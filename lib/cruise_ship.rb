@@ -13,7 +13,7 @@ def select_winner(passengers)
       winner = name
     end
   end
-  return winner
+  print "#{winner}"
 end
 
 select_winner(passengers)
